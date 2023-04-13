@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:ws_books/Resources/Private/Language/locallang_db.xlf" date="2023-04-13T15:47:31Z" product-name="ws_books">
+		<header/>
+		<body>
+			<trans-unit id="tx_wsbooks_domain_model_book" resname="tx_wsbooks_domain_model_book">
+				<source>Book</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.description" resname="tx_wsbooks_domain_model_book.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.title" resname="tx_wsbooks_domain_model_book.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.title.description" resname="tx_wsbooks_domain_model_book.title.description">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.slug" resname="tx_wsbooks_domain_model_book.slug">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.slug.description" resname="tx_wsbooks_domain_model_book.slug.description">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.subtitle" resname="tx_wsbooks_domain_model_book.subtitle">
+				<source>Subtitle</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.subtitle.description" resname="tx_wsbooks_domain_model_book.subtitle.description">
+				<source>Subtitle</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.publication_date" resname="tx_wsbooks_domain_model_book.publication_date">
+				<source>Publication Date</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.publication_date.description" resname="tx_wsbooks_domain_model_book.publication_date.description">
+				<source>Publication Date</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.isbn" resname="tx_wsbooks_domain_model_book.isbn">
+				<source>Isbn</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.isbn.description" resname="tx_wsbooks_domain_model_book.isbn.description">
+				<source>Isbn</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.description.description" resname="tx_wsbooks_domain_model_book.description.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.preface" resname="tx_wsbooks_domain_model_book.preface">
+				<source>Preface</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.preface.description" resname="tx_wsbooks_domain_model_book.preface.description">
+				<source>Preface</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.table_of_content" resname="tx_wsbooks_domain_model_book.table_of_content">
+				<source>Table Of Content</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.table_of_content.description" resname="tx_wsbooks_domain_model_book.table_of_content.description">
+				<source>Table Of Content</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.abstract" resname="tx_wsbooks_domain_model_book.abstract">
+				<source>Abstract</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.abstract.description" resname="tx_wsbooks_domain_model_book.abstract.description">
+				<source>Abstract</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.buy_link" resname="tx_wsbooks_domain_model_book.buy_link">
+				<source>Buy Link</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.buy_link.description" resname="tx_wsbooks_domain_model_book.buy_link.description">
+				<source>Buy Link</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.cover" resname="tx_wsbooks_domain_model_book.cover">
+				<source>Cover</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.cover.description" resname="tx_wsbooks_domain_model_book.cover.description">
+				<source>Cover</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.sample" resname="tx_wsbooks_domain_model_book.sample">
+				<source>Sample</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.sample.description" resname="tx_wsbooks_domain_model_book.sample.description">
+				<source>Sample</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.series" resname="tx_wsbooks_domain_model_book.series">
+				<source>Series</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_book.series.description" resname="tx_wsbooks_domain_model_book.series.description">
+				<source>Series</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series" resname="tx_wsbooks_domain_model_series">
+				<source>Series</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.description" resname="tx_wsbooks_domain_model_series.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.title" resname="tx_wsbooks_domain_model_series.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.title.description" resname="tx_wsbooks_domain_model_series.title.description">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.slug" resname="tx_wsbooks_domain_model_series.slug">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.slug.description" resname="tx_wsbooks_domain_model_series.slug.description">
+				<source>Slug</source>
+			</trans-unit>
+			<trans-unit id="tx_wsbooks_domain_model_series.description.description" resname="tx_wsbooks_domain_model_series.description.description">
+				<source>Description</source>
+			</trans-unit>
+			<trans-unit id="tx_ws_books_list.name" resname="tx_ws_books_list.name">
+				<source>List</source>
+			</trans-unit>
+			<trans-unit id="tx_ws_books_list.description" resname="tx_ws_books_list.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

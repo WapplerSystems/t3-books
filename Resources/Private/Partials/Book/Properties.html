@@ -1,0 +1,58 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<table class="tx-ws-books">
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.title" /></td>
+		<td>{book.title}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.slug" /></td>
+		<td>{book.slug}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.subtitle" /></td>
+		<td>{book.subtitle}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.publication_date" /></td>
+		<td>{book.publicationDate -> f:format.date()}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.isbn" /></td>
+		<td>{book.isbn}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.description" /></td>
+		<td>{book.description}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.preface" /></td>
+		<td>{book.preface}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.table_of_content" /></td>
+		<td>{book.tableOfContent}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.abstract" /></td>
+		<td>{book.abstract}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.buy_link" /></td>
+		<td>{book.buyLink}</td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.cover" /></td>
+		<td>
+				<f:image src="{book.cover.originalResource.publicUrl}" width="200"/>
+            </td>
+	</tr>
+	<tr>
+		<td><f:translate key="tx_wsbooks_domain_model_book.sample" /></td>
+		<td>
+				<a href="{book.sample.originalResource.publicUrl}">
+					{book.sample.originalResource.name}
+				</a>
+			</td>
+	</tr>
+</table>
+</html>

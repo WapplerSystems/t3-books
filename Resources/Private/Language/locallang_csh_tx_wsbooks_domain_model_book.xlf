@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:ws_books/Resources/Private/Language/locallang_csh_tx_wsbooks_domain_model_book.xlf" date="2023-04-13T15:47:31Z" product-name="ws_books">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="slug.description" resname="slug.description">
+				<source>slug</source>
+			</trans-unit>
+			<trans-unit id="subtitle.description" resname="subtitle.description">
+				<source>subtitle</source>
+			</trans-unit>
+			<trans-unit id="publication_date.description" resname="publication_date.description">
+				<source>publicationDate</source>
+			</trans-unit>
+			<trans-unit id="isbn.description" resname="isbn.description">
+				<source>isbn</source>
+			</trans-unit>
+			<trans-unit id="description.description" resname="description.description">
+				<source>description</source>
+			</trans-unit>
+			<trans-unit id="preface.description" resname="preface.description">
+				<source>preface</source>
+			</trans-unit>
+			<trans-unit id="table_of_content.description" resname="table_of_content.description">
+				<source>tableOfContent</source>
+			</trans-unit>
+			<trans-unit id="abstract.description" resname="abstract.description">
+				<source>abstract</source>
+			</trans-unit>
+			<trans-unit id="buy_link.description" resname="buy_link.description">
+				<source>buyLink</source>
+			</trans-unit>
+			<trans-unit id="cover.description" resname="cover.description">
+				<source>cover</source>
+			</trans-unit>
+			<trans-unit id="sample.description" resname="sample.description">
+				<source>sample</source>
+			</trans-unit>
+			<trans-unit id="series.description" resname="series.description">
+				<source>series</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

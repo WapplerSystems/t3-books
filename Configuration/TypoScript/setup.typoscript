@@ -1,0 +1,56 @@
+plugin.tx_wsbooks_list {
+    view {
+        templateRootPaths.0 = EXT:ws_books/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_wsbooks_list.view.templateRootPath}
+        partialRootPaths.0 = EXT:ws_books/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_wsbooks_list.view.partialRootPath}
+        layoutRootPaths.0 = EXT:ws_books/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_wsbooks_list.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_wsbooks_list.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
+
+# these classes are only used in auto-generated templates
+plugin.tx_wsbooks._CSS_DEFAULT_STYLE (
+    textarea.f3-form-error {
+        background-color: #FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    input.f3-form-error {
+        background-color: #FF9F9F;
+        border: 1px #FF0000 solid;
+    }
+
+    .tx-ws-books table {
+        border-collapse: separate;
+        border-spacing: 10px;
+    }
+
+    .tx-ws-books table th {
+        font-weight: bold;
+    }
+
+    .tx-ws-books table td {
+        vertical-align: top;
+    }
+
+    .typo3-messages .message-error {
+        color: red;
+    }
+
+    .typo3-messages .message-ok {
+        color: green;
+    }
+)
