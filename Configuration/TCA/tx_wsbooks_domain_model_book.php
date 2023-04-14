@@ -1,7 +1,7 @@
 <?php
 return [
     'ctrl' => [
-        'title' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book',
+        'title' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book',
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -11,6 +11,7 @@ return [
         'transOrigPointerField' => 'l10n_parent',
         'transOrigDiffSourceField' => 'l10n_diffsource',
         'delete' => 'deleted',
+        'sortby' => 'sorting',
         'enablecolumns' => [
             'disabled' => 'hidden',
             'starttime' => 'starttime',
@@ -101,8 +102,8 @@ return [
 
         'title' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.title',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.title.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.title',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.title.description',
             'config' => [
                 'type' => 'input',
                 'size' => 30,
@@ -112,8 +113,8 @@ return [
         ],
         'slug' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.slug',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.slug.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.slug',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.slug.description',
             'config' => [
                 'type' => 'slug',
                 'size' => 50,
@@ -131,8 +132,8 @@ return [
         ],
         'subtitle' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.subtitle',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.subtitle.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.subtitle',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.subtitle.description',
             'config' => [
                 'type' => 'input',
                 'size' => 30,
@@ -142,8 +143,8 @@ return [
         ],
         'publication_date' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.publication_date',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.publication_date.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.publication_date',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.publication_date.description',
             'config' => [
                 'dbType' => 'date',
                 'type' => 'input',
@@ -155,8 +156,8 @@ return [
         ],
         'isbn' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.isbn',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.isbn.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.isbn',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.isbn.description',
             'config' => [
                 'type' => 'input',
                 'size' => 30,
@@ -166,8 +167,8 @@ return [
         ],
         'description' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.description',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.description.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.description',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.description.description',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
@@ -185,8 +186,8 @@ return [
         ],
         'preface' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.preface',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.preface.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.preface',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.preface.description',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
@@ -204,8 +205,8 @@ return [
         ],
         'table_of_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.table_of_content',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.table_of_content.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.table_of_content',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.table_of_content.description',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
@@ -223,8 +224,8 @@ return [
         ],
         'abstract' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.abstract',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.abstract.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.abstract',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.abstract.description',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
@@ -242,8 +243,8 @@ return [
         ],
         'buy_link' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.buy_link',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.buy_link.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.buy_link',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.buy_link.description',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
@@ -251,8 +252,8 @@ return [
         ],
         'cover' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.cover',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.cover.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.cover',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.cover.description',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'cover',
                 [
@@ -306,8 +307,8 @@ return [
         ],
         'sample' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.sample',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.sample.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.sample',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.sample.description',
             'config' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getFileFieldTCAConfig(
                 'sample',
                 [
@@ -360,8 +361,8 @@ return [
         ],
         'series' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.series',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_book.series.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.series',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_book.series.description',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectMultipleSideBySide',

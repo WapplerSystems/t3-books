@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext">
+		<header/>
+		<body>
+			<trans-unit id="abstract">
+				<source>Abstract</source>
+				<target>Zusammenfassung</target>
+			</trans-unit>
+			<trans-unit id="tableOfContents">
+				<source>Table of contents</source>
+				<target>Inhaltsverzeichnis</target>
+			</trans-unit>
+			<trans-unit id="preface">
+				<source>Preface</source>
+				<target>Vorwort</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

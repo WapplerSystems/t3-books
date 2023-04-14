@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:ws_books/Resources/Private/Language/locallang_db.xlf" date="2023-04-13T15:47:31Z" product-name="ws_books">
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext">
 		<header/>
 		<body>
+			<trans-unit id="tt_content.CType.wsbooks_books.title" resname="tt_content.CType.wsbooks_books.title">
+				<source>Book list and detail view</source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.wsbooks_books.description" resname="tt_content.CType.wsbooks_books.description">
+				<source>s.</source>
+			</trans-unit>
 			<trans-unit id="tx_wsbooks_domain_model_book" resname="tx_wsbooks_domain_model_book">
 				<source>Book</source>
 			</trans-unit>
@@ -110,6 +116,33 @@
 			</trans-unit>
 			<trans-unit id="tx_ws_books_list.description" resname="tx_ws_books_list.description">
 				<source></source>
+			</trans-unit>
+			<trans-unit id="flexforms_tab.settings">
+				<source>Settings</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderBy.sorting">
+				<source>Sorting</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderBy.publicationDate">
+				<source>Publication date</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderBy.creationDate">
+				<source>Creation date</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderBy.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderDirection.asc">
+				<source>Ascending</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderDirection.desc">
+				<source>Descending</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderDirection">
+				<source>Order direction</source>
+			</trans-unit>
+			<trans-unit id="flexforms_general.orderBy">
+				<source>Order by</source>
 			</trans-unit>
 		</body>
 	</file>

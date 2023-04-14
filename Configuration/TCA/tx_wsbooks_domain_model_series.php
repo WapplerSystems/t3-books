@@ -1,7 +1,7 @@
 <?php
 return [
     'ctrl' => [
-        'title' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series',
+        'title' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series',
         'label' => 'title',
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
@@ -101,8 +101,8 @@ return [
 
         'title' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.title',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.title.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.title',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.title.description',
             'config' => [
                 'type' => 'input',
                 'size' => 30,
@@ -112,8 +112,8 @@ return [
         ],
         'slug' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.slug',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.slug.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.slug',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.slug.description',
             'config' => [
                 'type' => 'slug',
                 'size' => 50,
@@ -131,8 +131,8 @@ return [
         ],
         'description' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.description',
-            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_wsbooks_domain_model_series.description.description',
+            'label' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.description',
+            'description' => 'LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_wsbooks_domain_model_series.description.description',
             'config' => [
                 'type' => 'text',
                 'enableRichtext' => true,
