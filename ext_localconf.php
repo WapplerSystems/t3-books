@@ -19,22 +19,4 @@ defined('TYPO3') || die();
         ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
     );
 
-    // wizards
-    ExtensionManagementUtility::addPageTSConfig(
-        'mod {
-            wizards.newContentElement.wizardItems.plugins {
-                elements {
-                    list {
-                        iconIdentifier = ws_books-plugin-list
-                        title = LLL:EXT:ws_books/Resources/Private/Language/Backend.xlf:tx_ws_books_list.name
-                        description = LLL:EXT:ws_books/Resources/Private/Language/locallang_db.xlf:tx_ws_books_list.description
-                        tt_content_defValues {
-                            CType = list
-                        }
-                    }
-                }
-                show = *
-            }
-       }'
-    );
 })();
