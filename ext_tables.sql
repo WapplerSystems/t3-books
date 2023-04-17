@@ -8,7 +8,7 @@ CREATE TABLE tx_wsbooks_domain_model_book (
 	preface text,
 	table_of_content text,
 	abstract text,
-	buy_link varchar(255) NOT NULL DEFAULT '',
+	buy_link text,
 	cover int(11) unsigned NOT NULL DEFAULT '0',
 	sample int(11) unsigned NOT NULL DEFAULT '0',
 	series int(11) unsigned NOT NULL DEFAULT '0'
