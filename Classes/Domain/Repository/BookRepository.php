@@ -64,7 +64,7 @@ class BookRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 
         if (!empty($constraints)) {
             $query->matching(
-                $query->logicalAnd($constraints)
+                $query->logicalAnd(...$constraints)
             );
         }
 
